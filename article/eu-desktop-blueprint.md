@@ -5,18 +5,15 @@ date: "20.02.2026"
 lang: en
 description: "Why Europe should standardise on KDE Plasma, one packaging lineage, and native packages first — a practical path to digital sovereignty."
 ---
-
 # The EU Desktop Blueprint
 
 ## A Practical Path to a Unified European Linux Platform
 
-Europe does not lack Linux distributions.
-It lacks convergence.
+Europe does not lack Linux distributions. It lacks convergence.
 
 For decades, technical discussions about European digital sovereignty have focused on kernels, licensing models, forks, governance structures, and geopolitical risk. These discussions are important. But they often miss a more practical reality:
 
-Users experience the desktop first.
-Administrators maintain distributions second.
+Users experience the desktop first. Administrators maintain distributions second.
 
 If Europe wants a realistic, deployable, and scalable digital desktop strategy, the foundation must be pragmatic rather than ideological.
 
@@ -63,8 +60,7 @@ However, for the end user, these layers are invisible.
 
 The strategic mistake is attempting to standardise sovereignty at the kernel level first. Sovereignty at scale requires adoption. Adoption requires familiarity. Familiarity comes from consistent user experience.
 
-The backend must be robust.
-The frontend must be unified.
+The backend must be robust. The frontend must be unified.
 
 ---
 
@@ -150,9 +146,7 @@ A realistic blueprint can be summarised in six principles:
 5. Container packaging as secondary for consumer applications.
 6. A certified hardware programme aligned with the platform.
 
-This approach avoids unnecessary reinvention.
-It reduces fragmentation.
-It lowers institutional adoption barriers.
+This approach avoids unnecessary reinvention. It reduces fragmentation. It lowers institutional adoption barriers.
 
 Most importantly, it is implementable.
 
@@ -160,12 +154,10 @@ Most importantly, it is implementable.
 
 ## Conclusion: Convergence Before Reinvention
 
-Europe does not need another distribution.
-It needs alignment.
+Europe does not need another distribution. It needs alignment.
 
 By converging on a unified desktop experience and a unified packaging backbone, Europe can strengthen digital sovereignty without ideological overreach.
 
-The objective is not technical purity.
-The objective is operational coherence.
+The objective is not technical purity. The objective is operational coherence.
 
 A unified desktop contract is a practical step toward that goal.

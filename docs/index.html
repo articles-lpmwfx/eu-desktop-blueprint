@@ -1,16 +1,249 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Eu Desktop Blueprint — Coming Soon</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="lpmwfx, Denmark, EU" />
+  <meta name="description" content="Why Europe should standardise on KDE Plasma, one packaging lineage, and native packages first — a practical path to digital sovereignty." />
+  <title>eu-desktop-blueprint</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <main>
-        <h1>Eu Desktop Blueprint</h1>
-        <p style="color: var(--muted); font-size: 1.2rem;">Coming soon</p>
-        <p>lpmwfx, Denmark, EU</p>
-    </main>
+<div class="theme-toggle" aria-label="Theme switcher">
+  <button onclick="setTheme('light')" title="Light">&#9788;</button>
+  <button onclick="setTheme('dark')" title="Dark">&#9790;</button>
+  <button onclick="setTheme('system')" title="System">&#9881;</button>
+</div>
+<nav class="article-nav">
+  <a href="https://github.com/articles-lpmwfx/eu-desktop-blueprint/releases/latest">&#128196; PDF</a>
+  <a href="https://github.com/articles-lpmwfx/eu-desktop-blueprint/blob/main/article/eu-desktop-blueprint.md">&#128221; Markdown</a>
+  <a href="SHA256SUMS">&#128274; SHA256</a>
+  <a href="https://github.com/articles-lpmwfx/eu-desktop-blueprint">GitHub</a>
+  <a href="https://codeberg.org/Articles-lpmwfx/eu-desktop-blueprint">Codeberg</a>
+  <a href="https://codeberg.org/Articles-lpmwfx/eu-desktop-blueprint/issues">&#128172; Feedback</a>
+</nav>
+<header id="title-block-header">
+<h1 class="title">eu-desktop-blueprint</h1>
+<p class="author">lpmwfx, Denmark, EU</p>
+<p class="date">20.02.2026</p>
+</header>
+<h1 id="the-eu-desktop-blueprint">The EU Desktop Blueprint</h1>
+<h2 id="a-practical-path-to-a-unified-european-linux-platform">A
+Practical Path to a Unified European Linux Platform</h2>
+<p>Europe does not lack Linux distributions. It lacks convergence.</p>
+<p>For decades, technical discussions about European digital sovereignty
+have focused on kernels, licensing models, forks, governance structures,
+and geopolitical risk. These discussions are important. But they often
+miss a more practical reality:</p>
+<p>Users experience the desktop first. Administrators maintain
+distributions second.</p>
+<p>If Europe wants a realistic, deployable, and scalable digital desktop
+strategy, the foundation must be pragmatic rather than ideological.</p>
+<p>This article proposes a grounded and implementable approach:
+standardise the desktop experience, standardise the packaging lineage,
+and treat containerised apps as secondary—not foundational.</p>
+<hr />
+<h2 id="kde-plasma-as-the-european-desktop-contract">1. KDE Plasma as
+the European Desktop Contract</h2>
+<p>A unified European desktop does not require a new distribution. It
+requires a shared interface contract.</p>
+<p>KDE Plasma represents a uniquely strong candidate for this role:</p>
+<ul>
+<li>Mature, modular architecture</li>
+<li>Highly configurable without fragmentation</li>
+<li>Strong Qt ecosystem</li>
+<li>Deep European roots in community and development</li>
+<li>Enterprise viability</li>
+</ul>
+<p>Standardising on KDE Plasma does not eliminate diversity underneath.
+It establishes a common user experience across public institutions,
+education, and enterprise environments.</p>
+<p>The benefits are immediate and measurable:</p>
+<ul>
+<li>Reduced training costs</li>
+<li>Shared documentation</li>
+<li>Unified shortcut and workflow paradigms</li>
+<li>Consistent system settings and policies</li>
+<li>Cross-border IT familiarity</li>
+</ul>
+<p>In other words, KDE Plasma can function as a European desktop
+layer—independent of underlying kernel variations.</p>
+<hr />
+<h2 id="kernel-and-backend-important-but-not-the-user-contract">2.
+Kernel and Backend: Important, but Not the User Contract</h2>
+<p>The kernel, init system, and low-level stack remain critical for:</p>
+<ul>
+<li>Security hardening</li>
+<li>Patch governance</li>
+<li>Hardware enablement</li>
+<li>Long-term support cycles</li>
+</ul>
+<p>However, for the end user, these layers are invisible.</p>
+<p>The strategic mistake is attempting to standardise sovereignty at the
+kernel level first. Sovereignty at scale requires adoption. Adoption
+requires familiarity. Familiarity comes from consistent user
+experience.</p>
+<p>The backend must be robust. The frontend must be unified.</p>
+<hr />
+<h2 id="choose-one-packaging-lineage">3. Choose One Packaging
+Lineage</h2>
+<p>Fragmentation in European Linux adoption is less about ideology and
+more about packaging ecosystems.</p>
+<p>To create a unified enterprise and public-sector deployment strategy,
+Europe should standardise on one primary packaging lineage:</p>
+<ul>
+<li>Either a Debian-based system (deb)</li>
+<li>Or an RPM-based system (rpm)</li>
+</ul>
+<p>The specific choice is less important than the commitment to one
+lineage.</p>
+<p>Standardisation must include:</p>
+<ul>
+<li>A shared repository structure</li>
+<li>Unified signing policies</li>
+<li>Security update governance</li>
+<li>Long-term support cadence</li>
+<li>ABI stability guidelines</li>
+</ul>
+<p>Without packaging convergence, enterprise deployment remains
+fragmented and expensive.</p>
+<hr />
+<h2 id="native-packages-first.-containers-second.">4. Native Packages
+First. Containers Second.</h2>
+<p>Containerised packaging systems such as Flatpak and Snap serve an
+important role:</p>
+<ul>
+<li>Sandboxed consumer applications</li>
+<li>Fast distribution of simple user tools</li>
+<li>Cross-distribution convenience</li>
+</ul>
+<p>However, they are not optimal as the primary delivery mechanism
+for:</p>
+<ul>
+<li>Large business applications</li>
+<li>Developer toolchains</li>
+<li>System agents</li>
+<li>Smartcard and hardware integrations</li>
+<li>Kernel-adjacent software</li>
+<li>Security and compliance tooling</li>
+</ul>
+<p>Enterprise systems require deep integration, policy control, and
+predictable system interaction. These are better served through native
+packaging within a unified distribution lineage.</p>
+<p>Thus, the model becomes clear:</p>
+<ul>
+<li>Base OS + Native Packages = Enterprise and Development</li>
+<li>Container Packages = Consumer and Convenience</li>
+</ul>
+<p>This preserves flexibility without sacrificing architectural
+clarity.</p>
+<hr />
+<h2
+id="hardware-certification-matters-more-than-distribution-branding">5.
+Hardware Certification Matters More Than Distribution Branding</h2>
+<p>The most overlooked factor in Linux deployment success is hardware
+alignment.</p>
+<p>A system that “just works” consistently outperforms technically
+superior but poorly integrated alternatives.</p>
+<p>A European desktop strategy must therefore include:</p>
+<ul>
+<li>Certified hardware profiles</li>
+<li>Coordinated firmware support</li>
+<li>Driver stability validation</li>
+<li>Power management optimisation</li>
+<li>Default configuration QA</li>
+</ul>
+<p>The lesson from commercially dominant operating systems is not that
+their kernels are superior—but that their hardware-software integration
+is disciplined.</p>
+<p>European digital sovereignty must learn this lesson.</p>
+<hr />
+<h2 id="the-minimal-viable-european-desktop-standard">6. The Minimal
+Viable European Desktop Standard</h2>
+<p>A realistic blueprint can be summarised in six principles:</p>
+<ol type="1">
+<li>KDE Plasma as the unified desktop layer.</li>
+<li>One primary packaging lineage (deb or rpm).</li>
+<li>Unified repository, signing, and update governance.</li>
+<li>Native packaging as primary for enterprise and development.</li>
+<li>Container packaging as secondary for consumer applications.</li>
+<li>A certified hardware programme aligned with the platform.</li>
+</ol>
+<p>This approach avoids unnecessary reinvention. It reduces
+fragmentation. It lowers institutional adoption barriers.</p>
+<p>Most importantly, it is implementable.</p>
+<hr />
+<h2 id="conclusion-convergence-before-reinvention">Conclusion:
+Convergence Before Reinvention</h2>
+<p>Europe does not need another distribution. It needs alignment.</p>
+<p>By converging on a unified desktop experience and a unified packaging
+backbone, Europe can strengthen digital sovereignty without ideological
+overreach.</p>
+<p>The objective is not technical purity. The objective is operational
+coherence.</p>
+<p>A unified desktop contract is a practical step toward that goal.</p>
+<script type="module">
+  
+
+  function isDark() {
+    const theme = document.documentElement.getAttribute('data-theme');
+    if (theme === 'dark') return true;
+    if (theme === 'light') return false;
+    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+  }
+  
+
+  window.setTheme = function(theme) {
+    if (theme === 'system') {
+      document.documentElement.removeAttribute('data-theme');
+      localStorage.removeItem('theme');
+    } else {
+      document.documentElement.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', theme);
+    }
+    updateToggle();
+    
+  };
+
+  function updateToggle() {
+    const current = localStorage.getItem('theme') || 'system';
+    document.querySelectorAll('.theme-toggle button').forEach((btn, i) => {
+      const themes = ['light', 'dark', 'system'];
+      btn.classList.toggle('active', themes[i] === current);
+    });
+  }
+
+  // Apply saved theme on load
+  const saved = localStorage.getItem('theme');
+  if (saved) document.documentElement.setAttribute('data-theme', saved);
+  updateToggle();
+
+  // Listen for system theme changes
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+    if (!localStorage.getItem('theme')) {
+      
+    }
+  });
+
+  
+</script>
 </body>
 </html>
